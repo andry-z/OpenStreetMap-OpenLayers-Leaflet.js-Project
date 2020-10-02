@@ -1,5 +1,6 @@
 # OpenStreetMap Leaflet.js and OpenLayers
 
+A simple but funny project, making a map of Bari, Italy, with some Markers (made with geojson.io) and more. Feel free to suggest any adjustment!
 
 useful links: 
 
