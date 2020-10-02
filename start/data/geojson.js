@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-export default {"type":"FeatureCollection","features":[{"type":"Feature","properties":{"marker-color":"#7e7e7e","marker-size":"medium","marker-symbol":"school"},"geometry":{"type":"Point","coordinates":[16.85575380921364,41.12474418819201]}},{"type":"Feature","properties":{"marker-color":"#7e7e7e","marker-size":"medium","marker-symbol":"hospital"},"geometry":{"type":"Point","coordinates":[16.858649253845215,41.11178978653343]}},{"type":"Feature","properties":{"marker-color":"#7e7e7e","marker-size":"medium","marker-symbol":"rail-above"},"geometry":{"type":"Point","coordinates":[16.867661476135254,41.118514836389764]}},{"type":"Feature","properties":{"marker-color":"#7e7e7e","marker-size":"medium","marker-symbol":"college"},"geometry":{"type":"Point","coordinates":[16.866588592529297,41.120018178788044]}},{"type":"Feature","properties":{"marker-color":"#7e7e7e","marker-size":"medium","marker-symbol":"theatre"},"geometry":{"type":"Point","coordinates":[16.86746835708618,41.12561095674413]}},{"type":"Feature","properties":{"stroke":"#2e073e","stroke-width":2,"stroke-opacity":1,"fill":"#ff2600","fill-opacity":0.5},"geometry":{"type":"Polygon","coordinates":[[[16.870086193084717,41.132544692997186],[16.86452865600586,41.12858495667262],[16.86654567718506,41.125788754006386],[16.8719744682312,41.12620900016575],[16.87371253967285,41.12827786509471],[16.87128782272339,41.130605260168316],[16.871566772460938,41.13235075229427],[16.871588230133057,41.13307802697392],[16.87053680419922,41.133385096084595],[16.869914531707764,41.133336611583715],[16.870086193084717,41.132544692997186]]]}}]}
-=======
 export default {
   type: "FeatureCollection",
   features: [
@@ -64,4 +61,3 @@ export default {
     },
   ],
 };
->>>>>>> 59e4055f75cb8195281e2dc711a3b9d54025a5f4

@@ -4,27 +4,13 @@ import Map from "ol/Map";
 import TileLayer from "ol/layer/Tile";
 import { OSM } from "ol/source";
 import { View } from "ol";
-<<<<<<< HEAD
-=======
 import { fromLonLat } from "ol/proj";
->>>>>>> 59e4055f75cb8195281e2dc711a3b9d54025a5f4
 import {
   FullScreen,
   defaults as defaultControls,
   ZoomSlider,
 } from "ol/control";
 import { Heatmap } from "ol/layer";
-<<<<<<< HEAD
-import { fromLonLat } from "ol/proj";
-import VectorSource from "ol/source/Vector";
-import KML from "ol/format/KML";
-import Geocoder from "ol-geocoder";
-// import { FullScreen, defaults as defaultControls }
-
-const cords = new View({
-  center: fromLonLat([16.871871, 41.117143], "EPSG:3857"),
-  zoom: 10,
-=======
 import VectorSource from "ol/source/Vector";
 import KML from "ol/format/KML";
 import Geocoder from "ol-geocoder";
@@ -32,7 +18,6 @@ import Geocoder from "ol-geocoder";
 const view = new View({
   center: fromLonLat([16.871871, 41.117143], "EPSG:3857"),
   zoom: 18,
->>>>>>> 59e4055f75cb8195281e2dc711a3b9d54025a5f4
 });
 
 const map = new Map({
@@ -48,24 +33,6 @@ const map = new Map({
     }),
     new Heatmap({
       source: new VectorSource({
-<<<<<<< HEAD
-        url: require("./kml/2012_Earthquakes_Mag5.kml"),
-        format: new KML({
-          extractStyles: false,
-        }),
-        weight: function (feature) {
-          var name = feature.get("name");
-          var magnitude = parseFloat(name.substr(2));
-          return magnitude - 5;
-        },
-        blur: 5,
-        radius: 5,
-      }),
-    }),
-  ],
-  target: "map",
-  view: cords,
-=======
         url: require("./data/kml/2012_Earthquakes_Mag5.kml"),
         format: new KML({
           extractStyles: false,
@@ -82,15 +49,11 @@ const map = new Map({
   ],
   target: "map",
   view: view,
->>>>>>> 59e4055f75cb8195281e2dc711a3b9d54025a5f4
 });
 
 var geocoder = new Geocoder("nominatim", {
   provider: "osm",
-<<<<<<< HEAD
-=======
   key: "",
->>>>>>> 59e4055f75cb8195281e2dc711a3b9d54025a5f4
   lang: "pt-BR", //en-US, fr-FR
   placeholder: "Search for ...",
   targetType: "text-input",
@@ -105,8 +68,4 @@ geocoder.on("addresschosen", function (evt) {
     address = evt.address;
   // some popup solution
   content.innerHTML = "<p>" + address.formatted + "</p>";
-<<<<<<< HEAD
-  overlay.setPosition(coord);
-=======
->>>>>>> 59e4055f75cb8195281e2dc711a3b9d54025a5f4
 });
