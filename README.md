@@ -20,10 +20,6 @@ useful links:
 
 [Awesome GeoJSON](https://github.com/tmcw/awesome-geojson#readme)
 
-comandi:
-
-`git clone https://github.com/emidiotorre/workshopOSM.git`
-
 `cd workshopOSM`
 
 `npm install`
