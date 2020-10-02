@@ -1,0 +1,69 @@
+<<<<<<< HEAD
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#map {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+=======
+body {
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+#map {
+  width: 100vw;
+  height: 100vh;
+}
+>>>>>>> 59e4055f75cb8195281e2dc711a3b9d54025a5f4
+.fullscreen:-webkit-full-screen {
+  height: 100%;
+  margin: 0;
+}
+.fullscreen:-ms-fullscreen {
+  height: 100%;
+}
+
+.fullscreen:fullscreen {
+  height: 100%;
+}
+
+.fullscreen {
+  margin-bottom: 10px;
+  width: 100%;
+  height: 400px;
+}
+
+<<<<<<< HEAD
+=======
+.map .ol-rotate {
+  top: 3em;
+}
+
+>>>>>>> 59e4055f75cb8195281e2dc711a3b9d54025a5f4
+.map {
+  width: 80%;
+  height: 100%;
+  float: left;
+}
+
+.sidepanel {
+  background: #1f6b75;
+  width: 20%;
+  height: 100%;
+  float: left;
+}
+
+.sidepanel-title {
+  width: 100%;
+  font-size: 3em;
+  color: #ffffff;
+  display: block;
+  text-align: center;
+}
