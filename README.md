@@ -1,8 +1,7 @@
-# workshop su OpenStreetMap Leaflet.js e OpenLayers
+# OpenStreetMap Leaflet.js and OpenLayers
 
-## La Scuola Open Source Bari 19/20 settembre 2020
 
-link utili:
+useful links: 
 
 [OpenStreetMap Wiki](https://wiki.openstreetmap.org/wiki/Main_Page)
 
@@ -21,10 +20,6 @@ link utili:
 [GeoJSONLint](https://geojsonlint.com/)
 
 [Awesome GeoJSON](https://github.com/tmcw/awesome-geojson#readme)
-
-comandi:
-
-`git clone https://github.com/emidiotorre/workshopOSM.git`
 
 `cd workshopOSM`
 
