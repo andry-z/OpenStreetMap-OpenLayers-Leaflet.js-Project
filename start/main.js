@@ -1,20 +1,28 @@
 import L from "leaflet";
 import data from "./data/comuni_italiani.js";
 
+/* Importing Leaflet.js and data we previously downloaded */
+
 const coords = {
   bari: [41.117143, 16.871871],
 };
+
+/* Creating the coords where we want our map to start */ 
 
 L.Icon.Default = L.Icon.extend({
   iconUrl: "https://www.flaticon.com/svg/static/icons/svg/678/678100.svg",
   iconSize: [64, 64],
 });
 
+/* Adding icon */
+
 const map = L.map("map", {
   center: coords.bari,
   zoom: 10,
   maxZoom: 18,
 });
+
+/* Centering our map with the previously assigned coords */
 
 /* L.tileLayer(
   "https://api.maptiler.com/maps/hybrid/{z}/{x}/{y}@2x.jpg?key=BbRkFHV6XvPHPDamG2nz",
