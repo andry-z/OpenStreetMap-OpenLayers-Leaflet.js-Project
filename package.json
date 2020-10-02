@@ -12,12 +12,6 @@
   "dependencies": {
     "browserlist": "^1.0.0",
     "leaflet": "^1.7.1",
-<<<<<<< HEAD
-    "ol": ">4.1.0",
-    "ol-geocoder": "^4.0.0"
-  },
-  "browserList": [
-=======
     "ol": "^6.4.3",
     "ol-geocoder": "^4.0.0"
   },
@@ -25,7 +19,6 @@
     "cssnano": "^4.1.10"
   },
   "browserlist": [
->>>>>>> 59e4055f75cb8195281e2dc711a3b9d54025a5f4
     "not op_mob > 1"
   ],
   "resolutions": {
