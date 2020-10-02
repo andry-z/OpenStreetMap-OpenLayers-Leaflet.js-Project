@@ -17,6 +17,35 @@ export default {
     {
       type: "Feature",
       properties: {
+        "marker-color": "#ff0000",
+        "marker-size": "medium",
+        "marker-symbol": "garden",
+      },
+      geometry: {
+        type: "Point",
+        coordinates: [16.869839429855347, 41.12065062302826],
+      },
+    },
+    {
+      type: "FeatureCollection",
+      features: [
+        {
+          type: "Feature",
+          properties: {
+            "marker-color": "#ff0000",
+            "marker-size": "medium",
+            "marker-symbol": "garden",
+          },
+          geometry: {
+            type: "Point",
+            coordinates: [16.869839429855347, 41.12065062302826],
+          },
+        },
+      ],
+    },
+    {
+      type: "Feature",
+      properties: {
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
