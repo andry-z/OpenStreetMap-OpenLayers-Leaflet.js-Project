@@ -3,6 +3,8 @@ import data from "./data/comuni_italiani.js";
 
 /* Importing Leaflet.js and data we previously downloaded */
 
+alert("Welcome! Have a look at Bari, Italy!")
+
 const coords = {
   bari: [41.117143, 16.871871],
 };
